@@ -1,0 +1,56 @@
+Name: Dune Blum, Joshua Pham
+
+Overall:    89/100
+
+
+=====
+Spelling, grammar:    5/5
+
+
+=====
+Quality of chosen topic:     10/10
+
+=====
+Motivation:  4/5
+
+Say more about the motivation. 
+
+=====
+Clarity:     15/15
+
+======
+Overall structure:   10/10
+
+=======
+Research questions spelled out:    4/5
+
+Most of the questions you pose seem to be "is this doable" -- those
+are not research questions.
+
+======
+Method:    24/30
+
+LSA works on top of bag-of-words representations of text. This loses
+structure, so it loses information about which sentiment is expressed
+about which feature of a product.
+
+You need some sort of representation that keeps either word sequence
+or syntactic structure, and you need to find patterns in word
+sequences or in dependency structure that reliably identify sentiment
+pertaining to particular items. Then you need to somehow learn what
+features a particular type of product has, either by specifying this
+manually or through pattern-based learning. 
+
+Your example of "the sound quality is great" is indeed a judgment on a
+feature, but this has nothing to do with selectional preferences that
+predicates impose on their arguments. 
+
+======
+Data:       17/20
+
+You have put thought into domains that you might work on. but
+assembling and annotating a corpus yourselves is a huge task. Search
+the web for "feature-based sentiment analysis corpus". There are many
+people who work on this task, so there will be datasets. Check for
+example https://www.w3.org/community/sentiment/wiki/Datasets
+
