@@ -8,6 +8,7 @@ import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
 import csv
 from nltk.tokenize import RegexpTokenizer
+from collections import defaultdict
 
 
 # Creates soup
@@ -15,26 +16,19 @@ soup = BeautifulSoup(open("ABSA15_Hotels_Test.xml"), "lxml-xml")
 
 
 # Creates the dictionary holding tags/list of responses about said tags
-tags_dict = dict();
+tags_dict = defaultdict(list);
 
 # Creates the dictionary holding the tags/tokenized items
-token_dict = dict();
+token_dict = defaultdict(list);
 
 # Gets all opinion tags
 opinion = soup.find_all('Opinion')
-
-# Makes a key for each category and sets its value as an empty array
-for curropinion in opinion:  
-    tags_dict[curropinion['category']] = [];
-    token_dict[curropinion['category']] = [];
-
 
 # Gets all sentence tags (includes contents)
 tagList = soup.find_all('sentence');
 
 # Fills dict
-for x in range(0, len(tagList)):
-    curr_tag = tagList[x];
+for curr_tag in tagList:
     sentence = curr_tag.contents[1].contents
     for y in range(3, len(curr_tag) - 1):
         tags_dict[curr_tag.contents[y].contents[1]['category']].append(sentence);
