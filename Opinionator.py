@@ -55,4 +55,4 @@ for key, review in tags_dict.items():
                 token_dict[key].append(i)
                 
 #S See contents of adjective dictionary
-#print (token_dict)
+print (token_dict)
