@@ -40,7 +40,7 @@ for x in range(0, len(tagList)):
         tags_dict[curr_tag.contents[y].contents[1]['category']].append(sentence);
 
 # See contents of tag dictionary      
-#print (tags_dict);
+print (tags_dict);
 
 # Fills up adjective dictionary with 
 for key, review in tags_dict.items():

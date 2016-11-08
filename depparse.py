@@ -22,15 +22,8 @@ path_to_jar = '../scorenlp/stanford-corenlp-3.7.0.jar'
 path_to_models_jar = '../scorenlp/stanford-corenlp-3.7.0-models.jar'
 # dependency_parser = StanfordDependencyParser(path_to_jar=path_to_jar, path_to_models_jar=path_to_models_jar)
 
-# corpus = "The food from the restaurant was very good but pricey which was the standard for everything in this hotel."
-# corpus = "The quick brown fox jumps over the lazy dog"
 soup = BeautifulSoup(open("ABSA15_Hotels_Test.xml"), "lxml-xml")
 corpus = list(soup.find_all('sentence'));
-# sentence_tuple = [(sent.contents[1].contents[0], dependency_parser.raw_parse(sent.contents[1].contents[0])) for sent in corpus[:5]]
-# sentences_list = [sent.contents[1].contents[0] for sent in corpus[:5]]
-# sentences_parsed = dependency_parser.raw_parse(sentences_list[3])
-# pickle.dump(sentences_parsed, open('sentences_parsed.p', 'wb'))
-# print(sentences_parsed)
 sentences = [pos_tag(sent.contents[1].contents[0].split()) for sent in corpus]
 
 topics = set(['room', 'food', 'internet', 'hotel', 'flight'])
@@ -39,6 +32,7 @@ np_grammar = RegexpParser('''
     NP: {<JJ>+<NN>}
     VBP_P: {<VBP|VBD>.*<JJ>}
     ''')
+np_grammar = RegexpParser("NP: {(<JJ>* <NN.*>+ <IN>)? <JJ>* <NN.*>+}")
 for sentence in sentences:
     result = np_grammar.parse(sentence)
     traverse(result)
