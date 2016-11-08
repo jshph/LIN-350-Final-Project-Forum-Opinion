@@ -31,5 +31,5 @@ for x in range(0, len(tagList)):
         tags_dict[curr_tag.contents[y].contents[1]['category']].append(sentence);
 
 # See contents of dictionary      
-#print (tags_dict);
+print (tags_dict);
         
