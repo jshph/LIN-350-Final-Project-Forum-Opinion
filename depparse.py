@@ -3,18 +3,21 @@ from nltk.parse.stanford import StanfordDependencyParser
 from nltk import RegexpParser
 from nltk import pos_tag
 import pickle
+from collections import defaultdict
 
-def traverse(t):
+# traverse the tree t, in order to examine all the noun phrases.
+# Count the nouns that occur in these noun phrases.
+def traverse(t, nouns):
     try:
         t.label()
     except AttributeError:
-        pass# print(t, end=" ")
+        pass
     else:
-        # Now we know that t.node is defined
         for child in t:
-            traverse(child)
+            traverse(child, nouns)
         if t.label() == "NP":
-            print(t)
+            for noun in filter(lambda x: x[1] == 'NN', t.leaves()):
+                nouns[noun[0].strip('.(')] += 1
 
 
 
@@ -32,10 +35,20 @@ np_grammar = RegexpParser('''
     NP: {<JJ>+<NN>}
     VBP_P: {<VBP|VBD>.*<JJ>}
     ''')
+
+# initialize the nouns_histogram as a counter
+nouns_histogram = defaultdict(int)
+
 np_grammar = RegexpParser("NP: {(<JJ>* <NN.*>+ <IN>)? <JJ>* <NN.*>+}")
 for sentence in sentences:
     result = np_grammar.parse(sentence)
-    traverse(result)
+    traverse(result, nouns_histogram)
+
+# sort the nouns histogram by the highest count first, into a list
+nouns_histogram_list = sorted(nouns_histogram.items(), reverse=True, key=lambda x: x[1])
+for noun, count in nouns_histogram_list:
+    print(noun, count)
+
 
 
 # ideas:
