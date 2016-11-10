@@ -27,6 +27,7 @@ path_to_models_jar = '../scorenlp/stanford-corenlp-3.7.0-models.jar'
 
 soup = BeautifulSoup(open("ABSA15_Hotels_Test.xml"), "lxml-xml")
 corpus = list(soup.find_all('sentence'));
+print(corpus)
 sentences = [pos_tag(sent.contents[1].contents[0].split()) for sent in corpus]
 
 topics = set(['room', 'food', 'internet', 'hotel', 'flight'])

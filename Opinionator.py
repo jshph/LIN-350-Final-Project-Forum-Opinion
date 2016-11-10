@@ -36,7 +36,12 @@ for curr_tag in tagList:
 # See contents of tag dictionary      
 print (tags_dict);
 
-# Fills up adjective dictionary with 
+# used for binning up all categories for the adjectives they occur with
+def rec_dd():
+    return defaultdict(int)
+adj_to_category = defaultdict(rec_dd)
+
+# binning up all adjectives for the categories they occur with
 for key, review in tags_dict.items():
     for rev in review:
         rev_string = str(rev)
@@ -47,6 +52,37 @@ for key, review in tags_dict.items():
             if j in ['JJ', 'JJR', 'JJS']:
                 # add other POS tags to list above
                 token_dict[key].append(i)
+                adj_to_category[i][key] += 1
+
                 
-#S See contents of adjective dictionary
-print (token_dict)
+#See contents of adjective dictionary
+# print (token_dict)
+
+# 
+for adj, cats in adj_to_category.items():
+    sorted_categories = sorted(list(cats.items()), reverse=True, key=lambda x: x[1])
+    print(adj)
+    for x in sorted_categories:
+        print ('\tin ', x[0], x[1], 'times')
+
+"""
+example output:
+annoying
+    in  FACILITIES#QUALITY 1 times
+hassle-free
+    in  FACILITIES#GENERAL 1 times
+friendly
+    in  SERVICE#GENERAL 7 times
+    in  ROOMS#CLEANLINESS 1 times
+inexpensive
+    in  HOTEL#PRICES 1 times
+    in  HOTEL#GENERAL 1 times
+clean
+    in  ROOMS#CLEANLINESS 3 times
+    in  SERVICE#GENERAL 3 times
+    in  ROOMS#GENERAL 2 times
+    in  FACILITIES#GENERAL 2 times
+    in  HOTEL#CLEANLINESS 2 times
+    in  HOTEL#GENERAL 1 times
+    in  FOOD_DRINKS#QUALITY 1 times
+"""
