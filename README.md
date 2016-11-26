@@ -1,3 +1,5 @@
+store the below datasets in the root of this folder
+
 http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Electronics_5.json.gz]
 
 ^^^ extracted and stored as `reviews_Electronics_amazon.json`
