@@ -21,7 +21,14 @@ def preprocess(doc):
 	for punct in string.punctuation:
 		stopwords.add(punct)
 	
-	return [w.lower().translate(translator) for w in doc if w.lower() not in stopwords]
+	context_window_list = []
+	for idx, word in enumerate(doc[:-2]):
+		# strip punctuation and lowercase words.
+		context_window = ' '.join([w.lower().translate(translator) for w in doc[idx:idx + 3]])
+		context_window_list.append(context_window)
+	print(context_window_list)
+	return context_window_list
+	# return [w.lower().translate(translator) for w in doc if w.lower() not in stopwords]
 
 # Original function taken from website with some additional functionality:
 # - gathers information on the top topics by using a Counter that is initialized in the caller.
@@ -34,7 +41,7 @@ def make_and_show_lda_model(texts, gdict, numtopics, show_docs = True):
 	# make sure to set "passes" to a reasonably high number in order not to have all topics
 	# come out equal. 20 seems to work.
 	lda_obj = gensim.models.ldamodel.LdaModel( \
-		corpus, id2word=gdict, num_topics=numtopics, passes = 50)
+		corpus, id2word=gdict, num_topics=numtopics, passes = 20)
 
 	# how do our texts look: how important is each topic there?
 	if show_docs:

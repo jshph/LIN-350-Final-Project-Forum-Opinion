@@ -25,4 +25,4 @@ preprocessed_sentences_raw = [LDA.preprocess(s) for s in split_sentences_raw]
 gdict = LDA.saveInitialDictionary(preprocessed_sentences_raw)
 
 # experiment with number of topics
-LDA.make_and_show_lda_model(preprocessed_sentences_raw, gdict, 10, show_docs = True)
+LDA.make_and_show_lda_model(preprocessed_sentences_raw, gdict, 20, show_docs = True)
