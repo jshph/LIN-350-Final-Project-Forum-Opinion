@@ -6,6 +6,7 @@
 # IMPORTS AND CONSTANTS
 
 import json
+from collections import defaultdict
 
 from nltk.tokenize import RegexpTokenizer
 import nltk.data
@@ -19,23 +20,28 @@ STOPS = set(stopwords.words('english'));
 
 
 TEXTRANK = True
+# Not textrank: simply compile all review text as sentences, use LDA to study topics
+# With textrank: perform pagerank on review text to extract keywrods
 
 # Parse the JSON
 sentences = []
-reviews = []
+reviews = defaultdict(list)
 # with open('hotel_review_tripadvisor.txt') as taJSON:
 with open('reviews_Electronics_amazon.json') as elJSON:
 	reviewNo = 0
-	while reviewNo < 800:
+	while reviewNo < 6000:
 		# jsonReview = json.loads(taJSON.readline())['text']
-		jsonReview = json.loads(elJSON.readline())['reviewText']
+		jsonRaw = json.loads(elJSON.readline())
+		review = jsonRaw['reviewText']
+		ASIN = jsonRaw['asin']
+
 		if not TEXTRANK:
 			review = sentence_tokenizer.tokenize(jsonReview)
 			for sentence in review:
 				sentence_tokenized = word_tokenizer.tokenize(sentence)
 				sentences.append(sentence_tokenized)
 		else:
-			reviews.append(jsonReview)
+			reviews[ASIN].append(review)
 		reviewNo += 1
 
 
@@ -66,7 +72,8 @@ else:
 
 	import TextRank as tr
 
-	for review in reviews:
-		for scoring in tr.score_keyphrases_by_textrank(review):
+	for asin, reviewlist in reviews.items():
+		print("********* " + asin + " **********")
+		for scoring in tr.score_keyphrases_by_textrank(' '.join(reviewlist)):
 			print(scoring)
 		print()
