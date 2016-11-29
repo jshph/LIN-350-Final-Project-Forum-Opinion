@@ -26,14 +26,15 @@ TEXTRANK = True
 # Parse the JSON
 sentences = []
 reviews = defaultdict(list)
-# with open('hotel_review_tripadvisor.txt') as taJSON:
-with open('reviews_Electronics_amazon.json') as elJSON:
+ASIN = "default"
+with open('hotel_review_tripadvisor.txt') as taJSON:
+# with open('reviews_Electronics_amazon.json') as elJSON:
 	reviewNo = 0
-	while reviewNo < 6000:
-		# jsonReview = json.loads(taJSON.readline())['text']
-		jsonRaw = json.loads(elJSON.readline())
-		review = jsonRaw['reviewText']
-		ASIN = jsonRaw['asin']
+	while reviewNo < 300:
+		review = json.loads(taJSON.readline())['text']
+		# jsonRaw = json.loads(elJSON.readline())
+		# review = jsonRaw['reviewText']
+		# ASIN = jsonRaw['asin']
 
 		if not TEXTRANK:
 			review = sentence_tokenizer.tokenize(jsonReview)
