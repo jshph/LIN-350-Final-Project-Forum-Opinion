@@ -1,0 +1,438 @@
+foam rubber
+	 set()
+average place
+	 {'HOTEL'}
+place quiet
+	 set()
+job
+	 {'SERVICE'}
+charge
+	 {'ROOMS_AMENITIES'}
+restaurants
+	 {'LOCATION'}
+fluffy pillows
+	 set()
+incident
+	 {'SERVICE'}
+conference
+	 {'HOTEL'}
+common
+	 {'FACILITIES'}
+shuttle
+	 {'FACILITIES'}
+local
+	 {'LOCATION'}
+phoenix taxi
+	 set()
+good restaurant
+	 {'FACILITIES'}
+way
+	 set()
+slabs
+	 set()
+phoenix sky harbor airport
+	 {'HOTEL'}
+hotel overall
+	 {'HOTEL'}
+nice hotel
+	 {'LOCATION'}
+comfortable
+	 {'HOTEL', 'ROOMS'}
+didnt
+	 {'FACILITIES'}
+substandard management team
+	 {'HOTEL'}
+overall
+	 {'HOTEL'}
+degrees
+	 {'ROOMS'}
+available
+	 set()
+others
+	 set()
+room
+	 {'SERVICE', 'ROOMS', 'ROOMS_AMENITIES'}
+showers
+	 {'ROOMS'}
+front desk
+	 {'SERVICE'}
+pool
+	 {'FACILITIES'}
+front
+	 {'HOTEL'}
+internet
+	 {'FACILITIES'}
+phone
+	 {'SERVICE'}
+great location
+	 {'LOCATION', 'HOTEL'}
+speed
+	 {'FACILITIES'}
+taxi
+	 set()
+course
+	 set()
+business center
+	 {'FACILITIES'}
+west
+	 {'FACILITIES'}
+staff staff
+	 {'SERVICE'}
+desk
+	 {'SERVICE'}
+wait
+	 {'SERVICE'}
+fantastic
+	 {'HOTEL'}
+poor location
+	 {'HOTEL'}
+banner hospital
+	 {'LOCATION'}
+nights
+	 set()
+nice lobby
+	 {'FACILITIES'}
+sides
+	 {'HOTEL'}
+minute
+	 {'FACILITIES'}
+nice location
+	 {'LOCATION'}
+lighted palm
+	 {'FACILITIES'}
+extra
+	 {'HOTEL'}
+great restaurant
+	 {'FACILITIES'}
+complimentary breakfast
+	 set()
+hotel stay
+	 {'HOTEL'}
+friendly
+	 {'SERVICE'}
+woman
+	 {'SERVICE'}
+area
+	 {'HOTEL', 'FACILITIES'}
+convenient
+	 {'FACILITIES'}
+service
+	 {'HOTEL', 'SERVICE', 'FOOD_DRINKS'}
+unacceptable
+	 {'SERVICE'}
+arizona
+	 set()
+location
+	 {'LOCATION', 'FOOD_DRINKS'}
+hot
+	 {'FACILITIES'}
+breakfast
+	 {'FOOD_DRINKS', 'SERVICE'}
+mornings
+	 {'HOTEL'}
+friendly overall
+	 {'SERVICE'}
+place
+	 {'HOTEL'}
+outlet
+	 {'ROOMS'}
+type
+	 {'ROOMS'}
+best best western
+	 {'HOTEL'}
+new
+	 {'SERVICE'}
+bistros
+	 set()
+upgrades
+	 {'HOTEL'}
+night
+	 {'HOTEL'}
+business
+	 {'HOTEL', 'FACILITIES'}
+freeway
+	 {'HOTEL'}
+room service
+	 {'SERVICE'}
+surprise
+	 {'ROOMS'}
+reasonable
+	 {'FOOD_DRINKS'}
+hotel manager
+	 {'SERVICE'}
+stove dont
+	 {'ROOMS'}
+clean
+	 {'HOTEL', 'SERVICE', 'FACILITIES', 'ROOMS'}
+part
+	 {'SERVICE'}
+deal
+	 {'FOOD_DRINKS'}
+space
+	 {'ROOMS'}
+value
+	 {'LOCATION'}
+conditioner
+	 {'ROOMS_AMENITIES'}
+best western
+	 {'HOTEL'}
+bar
+	 {'FOOD_DRINKS'}
+gold crown club points
+	 {'SERVICE'}
+free
+	 {'SERVICE'}
+present
+	 {'SERVICE'}
+suite
+	 {'ROOMS'}
+hotel
+	 {'SERVICE', 'LOCATION', 'ROOMS', 'HOTEL'}
+valley
+	 {'LOCATION'}
+spacious
+	 {'ROOMS'}
+downside
+	 {'FACILITIES'}
+rate
+	 {'HOTEL'}
+food
+	 {'FOOD_DRINKS', 'SERVICE'}
+quiet
+	 {'HOTEL'}
+friendly staff
+	 {'SERVICE'}
+machines
+	 {'FACILITIES'}
+last
+	 {'FACILITIES'}
+wonderful
+	 {'HOTEL'}
+guests
+	 {'SERVICE'}
+lunch buffet twice
+	 {'FOOD_DRINKS'}
+free breakfast
+	 {'SERVICE'}
+week
+	 set()
+differernt weekends
+	 set()
+bathrooms
+	 {'ROOMS'}
+notch
+	 set()
+sightseeing tours
+	 {'FACILITIES'}
+seasoned pheonix road warrior
+	 {'HOTEL'}
+kind
+	 {'SERVICE'}
+front desk staff
+	 {'SERVICE', 'FACILITIES'}
+hotels
+	 {'FOOD_DRINKS'}
+touches
+	 {'ROOMS'}
+hilton
+	 set()
+exterior
+	 {'HOTEL'}
+payment
+	 {'SERVICE'}
+outstanding
+	 {'FOOD_DRINKS'}
+bad
+	 {'HOTEL'}
+restaurant
+	 {'FACILITIES', 'FOOD_DRINKS'}
+manager
+	 {'SERVICE'}
+free internet
+	 {'FACILITIES'}
+class
+	 {'FOOD_DRINKS'}
+web
+	 {'HOTEL'}
+helpful
+	 {'SERVICE'}
+rid
+	 {'ROOMS'}
+great price
+	 {'HOTEL'}
+nice pool
+	 {'FACILITIES'}
+dishes
+	 {'ROOMS'}
+hotel staff
+	 {'SERVICE'}
+review
+	 {'SERVICE'}
+distance
+	 set()
+business hotel
+	 {'HOTEL'}
+trip
+	 set()
+employee
+	 {'SERVICE'}
+average hotel
+	 {'HOTEL'}
+water
+	 {'FACILITIES'}
+departure
+	 {'HOTEL'}
+sinks
+	 {'ROOMS'}
+nice
+	 {'FACILITIES', 'LOCATION'}
+staff
+	 {'HOTEL', 'SERVICE'}
+large
+	 {'ROOMS'}
+food selection
+	 {'FOOD_DRINKS'}
+downtown
+	 set()
+scottsdale
+	 {'LOCATION'}
+good food
+	 {'FOOD_DRINKS'}
+sink
+	 {'ROOMS'}
+thing
+	 {'FACILITIES'}
+good
+	 {'FOOD_DRINKS', 'FACILITIES'}
+morning
+	 {'FACILITIES'}
+time
+	 {'SERVICE'}
+hotel desk staff
+	 {'SERVICE'}
+great service
+	 {'SERVICE'}
+great stay
+	 {'HOTEL'}
+beds
+	 {'ROOMS'}
+adequate
+	 set()
+dirty plates
+	 {'SERVICE'}
+excellent
+	 {'HOTEL', 'SERVICE'}
+great airport location
+	 {'LOCATION'}
+free shuttle
+	 {'FACILITIES'}
+phoenix airport
+	 set()
+reasonable price
+	 {'FOOD_DRINKS'}
+idea
+	 {'FACILITIES'}
+best
+	 {'HOTEL', 'FOOD_DRINKS'}
+age
+	 {'HOTEL'}
+right
+	 {'LOCATION'}
+wall
+	 {'SERVICE'}
+end
+	 set()
+average
+	 {'HOTEL'}
+center
+	 {'FACILITIES'}
+price
+	 {'HOTEL', 'FOOD_DRINKS'}
+malls c
+	 {'HOTEL'}
+pool area
+	 {'FACILITIES'}
+overall service
+	 {'SERVICE'}
+pictures
+	 {'HOTEL'}
+great
+	 {'LOCATION', 'SERVICE', 'FACILITIES', 'HOTEL'}
+similar
+	 set()
+check in
+	 {'SERVICE'}
+comfortable room
+	 {'ROOMS'}
+rooms
+	 {'SERVICE', 'ROOMS'}
+king
+	 {'FOOD_DRINKS'}
+university
+	 {'LOCATION'}
+everything
+	 {'FACILITIES'}
+pots
+	 {'ROOMS'}
+affordable
+	 {'HOTEL'}
+phoenix
+	 {'HOTEL'}
+good airport shuttle
+	 {'FACILITIES'}
+desk clerk
+	 {'SERVICE'}
+easy
+	 {'LOCATION'}
+much
+	 {'FACILITIES'}
+floor
+	 {'HOTEL'}
+days
+	 set()
+nothing fancy
+	 {'HOTEL'}
+lobby
+	 {'ROOMS'}
+minutes
+	 {'FACILITIES'}
+headboard
+	 {'ROOMS'}
+inexpensive
+	 {'HOTEL'}
+behavior
+	 {'SERVICE'}
+excellent service
+	 {'SERVICE'}
+trend
+	 {'HOTEL'}
+good motel
+	 {'HOTEL'}
+airport
+	 {'FACILITIES', 'LOCATION', 'HOTEL'}
+great hotel
+	 {'HOTEL'}
+phoenix area
+	 {'HOTEL'}
+poor
+	 {'HOTEL'}
+stay
+	 {'SERVICE', 'HOTEL'}
+courteous
+	 {'SERVICE'}
+
+	 ['notch', 'foam rubber', 'place quiet', 'differernt weekends', 'complimentary breakfast', 'adequate', 'fluffy pillows', 'conference', 'phoenix airport', 'phoenix taxi', 'arizona', 'hilton', 'way', 'slabs', 'restaurant', 'end', 'similar', 'available', 'others', 'room', 'bistros', 'rooms', 'distance', 'trip', 'easy', 'free', 'days', 'taxi', 'hotels', 'course', 'suite', 'hotel', 'nice', 'desk', 'week', 'downtown', 'nights', 'night', 'airport', 'last', 'stay']
+LOCATION
+	 ['nice', 'location', 'valley', 'university', 'nice hotel', 'banner hospital', 'great airport location', 'value', 'scottsdale', 'great location', 'right', 'easy', 'restaurants', 'local', 'nice location']
+FACILITIES
+	 ['great restaurant', 'sightseeing tours', 'convenient', 'free shuttle', 'front desk staff', 'idea', 'everything', 'hot', 'minutes', 'restaurant', 'didnt', 'free internet', 'speed', 'business', 'center', 'lighted palm', 'area', 'nice pool', 'common', 'pool', 'good airport shuttle', 'internet', 'water', 'much', 'shuttle', 'business center', 'nice', 'west', 'downside', 'good restaurant', 'nice lobby', 'pool area', 'machines', 'last', 'thing', 'good', 'minute', 'morning']
+SERVICE
+	 ['hotel desk staff', 'great service', 'free breakfast', 'job', 'time', 'excellent', 'dirty plates', 'woman', 'incident', 'front desk staff', 'stay', 'unacceptable', 'breakfast', 'friendly overall', 'kind', 'manager', 'payment', 'new', 'wall', 'hotel staff', 'helpful', 'room service', 'overall service', 'behavior', 'hotel manager', 'check in', 'part', 'front desk', 'rooms', 'review', 'employee', 'desk clerk', 'phone', 'gold crown club points', 'free', 'present', 'staff', 'food', 'staff staff', 'desk', 'wait', 'friendly', 'excellent service', 'friendly staff', 'guests', 'courteous']
+FOOD_DRINKS
+	 ['reasonable', 'lunch buffet twice', 'breakfast', 'location', 'food', 'food selection', 'king', 'outstanding', 'reasonable price', 'bar', 'restaurant', 'deal', 'good food', 'hotels', 'best', 'good', 'class', 'price']
+HOTEL
+	 ['extra', 'average place', 'great stay', 'excellent', 'seasoned pheonix road warrior', 'sides', 'poor location', 'conference', 'best', 'age', 'mornings', 'phoenix area', 'place', 'exterior', 'phoenix sky harbor airport', 'hotel overall', 'best western', 'bad', 'trend', 'comfortable', 'best best western', 'substandard management team', 'overall', 'average', 'upgrades', 'business', 'price', 'malls c', 'great price', 'hotel stay', 'area', 'pictures', 'freeway', 'affordable', 'phoenix', 'business hotel', 'front', 'average hotel', 'great location', 'floor', 'departure', 'nothing fancy', 'web', 'staff', 'rate', 'inexpensive', 'fantastic', 'good motel', 'night', 'great hotel', 'poor', 'wonderful', 'quiet', 'stay']
+ROOMS
+	 ['beds', 'bathrooms', 'lobby', 'touches', 'sink', 'outlet', 'type', 'comfortable', 'rid', 'degrees', 'surprise', 'stove dont', 'comfortable room', 'dishes', 'showers', 'rooms', 'pots', 'space', 'sinks', 'suite', 'headboard', 'large', 'spacious']
+ROOMS_AMENITIES
+	 ['conditioner', 'charge']
