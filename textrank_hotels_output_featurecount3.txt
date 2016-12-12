@@ -1,0 +1,430 @@
+********* ROOMS#GENERAL  **********
+
+
+
+('rooms', 1)
+('bathrooms', 1)
+('room', 1)
+('suite', 1)
+('comfortable', 1)
+('hotel', 1)
+('clean', 1)
+('showers', 1)
+('sinks', 1)
+
+
+********* NAMELESS  **********
+
+
+('rooms', 1)
+('complimentary', 1)
+('suite', 1)
+('way', 1)
+('days', 1)
+('trip', 1)
+('weekends', 1)
+('end', 1)
+('quiet', 1)
+('pillows', 1)
+('hilton', 1)
+('similar', 1)
+('easy', 1)
+('place', 1)
+('free', 1)
+('conference', 1)
+('week', 1)
+('slabs', 1)
+('downtown', 1)
+('desk', 1)
+('others', 1)
+('night', 1)
+('distance', 1)
+('restaurant', 1)
+('course', 1)
+('last', 1)
+('adequate', 1)
+('hotels', 1)
+('rubber', 1)
+('differernt', 1)
+('foam', 1)
+('nights', 1)
+('notch', 1)
+('room', 1)
+('bistros', 1)
+('stay', 1)
+('breakfast', 1)
+('hotel', 1)
+('fluffy', 1)
+('available', 1)
+('nice', 1)
+('arizona', 1)
+('phoenix', 2)
+('airport', 2)
+('taxi', 2)
+
+
+********* LOCATION#GENERAL  **********
+
+
+
+('banner', 1)
+('scottsdale', 1)
+('easy', 1)
+('valley', 1)
+('university', 1)
+('right', 1)
+('hospital', 1)
+('local', 1)
+('restaurants', 1)
+('value', 1)
+('airport', 2)
+('hotel', 2)
+('great', 3)
+('nice', 3)
+('location', 4)
+
+
+********* ROOMS#QUALITY  **********
+
+
+
+('sink', 1)
+('beds', 1)
+
+
+********* ROOMS#MISCELLANEOUS  **********
+
+
+
+('rid', 1)
+('suite', 1)
+
+
+********* HOTEL#GENERAL  **********
+
+
+
+('excellent', 1)
+('road', 1)
+('trend', 1)
+('management', 1)
+('seasoned', 1)
+('team', 1)
+('pheonix', 1)
+('good', 1)
+('substandard', 1)
+('staff', 1)
+('inexpensive', 1)
+('warrior', 1)
+('bad', 1)
+('motel', 1)
+('conference', 1)
+('upgrades', 1)
+('extra', 1)
+('fantastic', 1)
+('affordable', 1)
+('service', 1)
+('wonderful', 1)
+('overall', 2)
+('poor', 2)
+('area', 2)
+('location', 2)
+('phoenix', 2)
+('place', 2)
+('western', 2)
+('price', 2)
+('average', 3)
+('stay', 3)
+('best', 4)
+('great', 5)
+('hotel', 5)
+
+
+********* HOTEL#PRICES  **********
+
+
+
+('price', 1)
+('rate', 1)
+('night', 1)
+
+
+********* FOOD_DRINKS#QUALITY  **********
+
+
+
+('best', 1)
+('bar', 1)
+('restaurant', 1)
+('twice', 1)
+('deal', 1)
+('outstanding', 1)
+('service', 1)
+('lunch', 1)
+('buffet', 1)
+('breakfast', 1)
+('king', 1)
+('location', 1)
+('reasonable', 2)
+('price', 2)
+('good', 2)
+('food', 2)
+
+
+********* ROOMS#COMFORT  **********
+
+
+
+('rooms', 1)
+('degrees', 1)
+('beds', 1)
+('room', 2)
+('comfortable', 2)
+
+
+********* SERVICE#GENERAL  **********
+
+
+
+('rooms', 1)
+('payment', 1)
+('courteous', 1)
+('incident', 1)
+('points', 1)
+('club', 1)
+('check', 1)
+('guests', 1)
+('clerk', 1)
+('wall', 1)
+('review', 1)
+('phone', 1)
+('unacceptable', 1)
+('present', 1)
+('time', 1)
+('gold', 1)
+('food', 1)
+('plates', 1)
+('part', 1)
+('clean', 1)
+('job', 1)
+('new', 1)
+('woman', 1)
+('employee', 1)
+('in', 1)
+('behavior', 1)
+('kind', 1)
+('crown', 1)
+('dirty', 1)
+('stay', 1)
+('helpful', 1)
+('wait', 1)
+('great', 2)
+('free', 2)
+('excellent', 2)
+('overall', 2)
+('manager', 2)
+('room', 2)
+('front', 2)
+('breakfast', 2)
+('friendly', 3)
+('hotel', 4)
+('service', 5)
+('desk', 5)
+('staff', 7)
+
+
+********* HOTEL#QUALITY  **********
+
+
+
+('exterior', 1)
+('age', 1)
+
+
+********* HOTEL#DESIGN_FEATURES  **********
+
+
+
+('sides', 1)
+('malls', 1)
+
+
+********* ROOMS_AMENITIES#QUALITY  **********
+
+
+
+('conditioner', 1)
+
+
+********* FACILITIES#PRICES  **********
+
+
+
+('downside', 1)
+('minute', 1)
+('business', 1)
+('center', 1)
+('west', 1)
+('free', 2)
+('shuttle', 2)
+('internet', 2)
+
+
+********* ROOMS_AMENITIES#PRICES  **********
+
+
+
+('room', 1)
+('charge', 1)
+
+
+********* ROOMS#CLEANLINESS  **********
+
+
+
+('type', 1)
+('rooms', 1)
+('room', 1)
+('outlet', 1)
+('spacious', 1)
+('headboard', 1)
+('surprise', 1)
+('clean', 1)
+
+
+********* FACILITIES#COMFORT  **********
+
+
+
+('convenient', 1)
+('airport', 1)
+
+
+********* ROOMS#DESIGN_FEATURES  **********
+
+
+
+('space', 1)
+('dishes', 1)
+('room', 1)
+('suite', 1)
+('stove', 1)
+('lobby', 1)
+('dont', 1)
+('touches', 1)
+('pots', 1)
+('large', 1)
+
+
+********* FACILITIES#QUALITY  **********
+
+
+
+('speed', 1)
+('last', 1)
+
+
+********* FOOD_DRINKS#STYLE_OPTIONS  **********
+
+
+
+('class', 1)
+('selection', 1)
+('hotels', 1)
+('food', 1)
+
+
+********* HOTEL#COMFORT  **********
+
+
+
+('mornings', 1)
+('quiet', 1)
+('hotel', 1)
+('comfortable', 1)
+
+
+********* FACILITIES#CLEANLINESS  **********
+
+
+
+('area', 1)
+
+
+********* HOTEL#MISCELLANEOUS  **********
+
+
+
+('harbor', 1)
+('web', 1)
+('phoenix', 1)
+('floor', 1)
+('front', 1)
+('freeway', 1)
+('sky', 1)
+('departure', 1)
+('pictures', 1)
+('airport', 2)
+('hotel', 2)
+('business', 2)
+
+
+********* FACILITIES#GENERAL  **********
+
+
+
+('desk', 1)
+('palm', 1)
+('minutes', 1)
+('idea', 1)
+('lighted', 1)
+('clean', 1)
+('front', 1)
+('everything', 1)
+('business', 1)
+('hot', 1)
+('staff', 1)
+('machines', 1)
+('airport', 2)
+('pool', 2)
+('shuttle', 2)
+('great', 2)
+('nice', 2)
+('restaurant', 3)
+('good', 3)
+
+
+********* FACILITIES#MISCELLANEOUS  **********
+
+
+
+('tours', 1)
+('thing', 1)
+('sightseeing', 1)
+('morning', 1)
+
+
+********* FACILITIES#DESIGN_FEATURES  **********
+
+
+
+('common', 1)
+('center', 1)
+('much', 1)
+('nice', 1)
+('area', 1)
+('water', 1)
+('didnt', 1)
+('lobby', 1)
+('pool', 2)
+
+
+********* HOTEL#CLEANLINESS  **********
+
+
+
+('nothing', 1)
+('comfortable', 1)
+('hotel', 1)
+('fancy', 1)
+('clean', 1)
