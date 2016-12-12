@@ -421,6 +421,7 @@ stay
 courteous
 	 {'SERVICE'}
 
+<empty>
 	 ['notch', 'foam rubber', 'place quiet', 'differernt weekends', 'complimentary breakfast', 'adequate', 'fluffy pillows', 'conference', 'phoenix airport', 'phoenix taxi', 'arizona', 'hilton', 'way', 'slabs', 'restaurant', 'end', 'similar', 'available', 'others', 'room', 'bistros', 'rooms', 'distance', 'trip', 'easy', 'free', 'days', 'taxi', 'hotels', 'course', 'suite', 'hotel', 'nice', 'desk', 'week', 'downtown', 'nights', 'night', 'airport', 'last', 'stay']
 LOCATION
 	 ['nice', 'location', 'valley', 'university', 'nice hotel', 'banner hospital', 'great airport location', 'value', 'scottsdale', 'great location', 'right', 'easy', 'restaurants', 'local', 'nice location']
